@@ -1,0 +1,99 @@
+Aquí tienes el archivo `README.md` completo y profesional para tu proyecto, adaptado al contenido final de la aplicación.
+
+```markdown
+# ¡Aprende Balonmano! 🤲⚽
+
+Una infografía web interactiva y educativa diseñada para enseñar los fundamentos del balonmano a niños de 8 a 12 años a través del juego y la exploración dinámica.
+
+![Vista previa del proyecto](https://via.placeholder.com/800x400?text=Captura+de+la+Web+Interactiva)
+
+---
+
+## 🎯 Descripción
+
+Este proyecto es una aplicación web de una sola página (Single Page Application) que combina principios de diseño instruccional con tecnologías web modernas. El objetivo no es solo informar, sino que el niño **aprenda haciendo** mediante interacciones visuales, sonoras y lúdicas.
+
+**Enfoque Pedagógico:** Aprendizaje interactivo y gamificación.
+
+## ✨ Características Principales
+
+*   **Interfaz Visual 3D:** Tarjetas con efectos de profundidad y brillo al pasar el mouse (`hover`), diseñadas para captar la atención infantil.
+*   **Aprendizaje por Descubrimiento:** Secciones interactivas donde al tocar elementos aparecen datos curiosos y explicaciones.
+*   **Simulaciones Lúdicas:**
+    *   **Simulador de Gol:** Botón interactivo que anima el balón entrando a la portería con efectos de partículas (confeti) y vibración de red.
+    *   **Simulador de Portero:** Animación donde el usuario puede intentar "atarajar" un balón, viendo la reacción del personaje.
+*   **Quiz Dinámico:** Evaluación interactiva de 5 preguntas con:
+    *   Barra de progreso animada.
+    *   Sistema de estrellas visual.
+    *   Retroalimentación inmediata (sonidos y colores verde/rojo).
+    *   Pantalla final con mensajes de ánimo.
+*   **Audio Inmersivo (Sin archivos externos):** Uso de `Web Audio API` para generar sonidos de gol, aciertos, errores y clics en tiempo real.
+*   **Diseño Responsivo:** Funcionamiento fluido en celulares, tablets y ordenadores de escritorio (Mobile-First).
+*   **PWA Ready:** Incluye lógica para ser instalada como aplicación (Manifiesto y Service Worker generados dinámicamente).
+
+## 🛠️ Tecnologías Utilizadas
+
+Este proyecto ha sido desarrollado sin frameworks externos, utilizando únicamente tecnologías nativas del navegador para garantizar un rendimiento óptimo y ligero.
+
+*   **HTML5:** Estructura semántica y accesible.
+*   **CSS3:**
+    *   Diseño con Flexbox y CSS Grid.
+    *   Animaciones avanzadas (`@keyframes`).
+    *   Transformaciones 3D (`perspective`, `rotateX`, `translateZ`).
+    *   Variables CSS para gestión de colores y tipografías.
+*   **JavaScript (Vanilla):**
+    *   Lógica del Quiz.
+    *   Manejo del DOM.
+    *   Generación de audio sintético (`AudioContext`).
+    *   Sistema de partículas en Canvas para el confeti.
+*   **Recursos Externos:**
+    *   Fuentes: Google Fonts (Baloo 2, Fredoka, Nunito).
+
+## 🎨 Paleta de Colores
+
+*   Naranja: `#FF6B35`
+*   Amarillo: `#FFD60A`
+*   Azul: `#1B74E4`
+*   Verde: `#2ECC71`
+*   Rojo: `#E74C3C`
+*   Fondo: `#FFF9F0`
+
+## 🚀 Cómo Ejecutar el Proyecto
+
+Dado que es un archivo autocontenido, no requiere instalación de dependencias (Node.js, npm, etc.).
+
+1.  Descarga el archivo `balonmano-ninos.html`.
+2.  Ábrelo con cualquier navegador web moderno (Chrome, Firefox, Edge, Safari).
+3.  ¡Disfruta de la experiencia!
+
+> **Nota:** Para que los sonidos funcionen correctamente, asegúrate de interactuar con la página (hacer clic) primero, ya que los navegadores bloquean el audio automático.
+
+## 📂 Estructura del Código
+
+Todo el código reside en un único archivo `balonmano-ninos.html` organizado de la siguiente manera:
+
+1.  **Head:** Meta tags, Fuentes, Estilos CSS (Variables, Animaciones, Layout, Responsive).
+2.  **Body:**
+    *   Canvas para efectos (Confeti).
+    *   Header (Hero + Mascota).
+    *   Secciones Educativas (Intro, Datos, Pasos, Gol, Portero).
+    *   Sección de Quiz.
+    *   Footer.
+3.  **Script:**
+    *   Sistema de Audio.
+    *   Lógica de Interacciones (Gol, Portero).
+    *   Lógica del Quiz.
+    *   Lógica de Partículas (Confeti).
+    *   Configuración PWA.
+
+## 👩‍💻 Autoría
+
+*   **Desarrollado por:** Ariana Landa
+*   **Institución:** Universidad Tecnológica del Perú (UTP)
+*   **Año de creación:** 2026
+*   **Licencia:** Uso educativo.
+
+---
+
+> “¡El deporte nos enseña a trabajar en equipo!” 🏆
+```
